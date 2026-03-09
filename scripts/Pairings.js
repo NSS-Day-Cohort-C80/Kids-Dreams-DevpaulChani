@@ -36,3 +36,11 @@ export const Pairings = () => {
     return html
 }
 
+document.addEventListener("click", (clickEvent) => {
+  const itemClicked = clickEvent.target;
+    if (itemClicked.dataset.type === "pairing") {
+    const kid = children.find(child => child.id === parseInt(itemClicked.dataset.kidId))
+    const celebrity = celebrities.find(celeb => celeb.id === parseInt(itemClicked.dataset.celebrityId))
+    window.alert(`${kid.name} will be making memories with ${celebrity.name}, a ${celebrity.sport} star, by ${kid.wish}`)
+    }
+});

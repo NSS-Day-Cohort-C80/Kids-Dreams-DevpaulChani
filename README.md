@@ -41,4 +41,4 @@ Before you click the "Complete Assessment" button on the Learning Platform, add 
 3. In the **CelebrityList** module, can you describe how the name of the sport that the celebrity plays can be displayed in the window alert text?
    > it is accessed by celebrity.sport where celebrity is an memeber of celebrities = getCelebrities()
 4. Can you describe, in detail, the algorithm that is in the `main` module?
-   > mainContainer is made as container in document. then the html is made as applicationHTML. then mainContainerinnerHTML is set as the HTML at applicationHTML. then the event listeners are placed.
+   > mainContainer is made as container from index document. then the html is made as applicationHTML. then mainContainerinnerHTML is set as the HTML at applicationHTML. then the event listeners are placed.
