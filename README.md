@@ -35,10 +35,10 @@ Make sure your Developer Tools are open at all times while working on this proje
 Before you click the "Complete Assessment" button on the Learning Platform, add your answers below each question and make a commit.
 
 1. When a child is clicked on in the browser, which module contains the code that will execute on that event happening? Can you explain the algorithm of that logic?
-   > Your answer here
+   > the main module in the event listeners block. it checks for the childs id matching the clicked one and sends and alert of that child and wish
 2. In the **Pairings** module, why must the `findCelebrityMatch()` function be invoked inside the `for..of` loop that iterates the kids array?
-   > Your answer here
+   > it finds and returns a celebrity that matches the kids wish so it can be paired with a kid for the alert
 3. In the **CelebrityList** module, can you describe how the name of the sport that the celebrity plays can be displayed in the window alert text?
-   > Your answer here
+   > it is accessed by celebrity.sport where celebrity is an memeber of celebrities = getCelebrities()
 4. Can you describe, in detail, the algorithm that is in the `main` module?
-   > Your answer here
+   > mainContainer is made as container in document. then the html is made as applicationHTML. then mainContainerinnerHTML is set as the HTML at applicationHTML. then the event listeners are placed.
